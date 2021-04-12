@@ -1,0 +1,21 @@
+body{
+  background-color: #e3a73b;
+}
+legend{
+  margin: auto;
+}
+.yellow{
+  background-color: yellow;
+}
+
+.red{
+  background-color: red;
+}
+td{
+  border:1px solid black;
+  text-align: center;
+}
+
+th{
+  border:1px solid black;
+}

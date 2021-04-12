@@ -1,0 +1,37 @@
+.slider{
+  width: 400px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.theCube{
+    width: calc(404px * 3);
+    animation: rotate 5s infinite;
+}
+
+.slide{
+  float: left;
+  text-align: center;
+}
+.img{
+  border: 2px solid black;
+  border-radius: 100;
+  height: 320px;
+  width: 400px;
+  float: left;
+}
+
+@keyframes rotate {
+    0% {
+      transform: translateX(0);
+    }
+    33% {
+      transform: translateX(-404px);
+    }
+    66% {
+      transform: translateX(-808px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}

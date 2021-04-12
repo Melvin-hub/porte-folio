@@ -1,0 +1,45 @@
+body{
+    background-color: #e3a73b
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.puissance4{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+
+.divRegles{
+    display: center;
+    justify-content: center;
+
+}
+
+.regles{
+    text-align: justify;
+    font-size: 12px;
+
+}
+.logo{
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 70px;
+}
+.navig{
+    height: 100px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+}
