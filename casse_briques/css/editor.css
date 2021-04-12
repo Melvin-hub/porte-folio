@@ -1,0 +1,30 @@
+.container-canvas{
+    display: block;
+    margin: auto;
+    height: 610px;
+    width: 580px;
+}
+
+.canvas{
+   /*1 rectangle fait 16px de hauteur et 48px de largeur*/
+    border: solid black 2px;
+
+}
+
+.buttons{
+    display: block;
+    text-align: center;
+}
+
+.commands{
+  display: block;
+  text-align: center;
+}
+
+.pages{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
